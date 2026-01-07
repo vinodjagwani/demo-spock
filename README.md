@@ -27,7 +27,7 @@ The goal of this project is to demonstrate:
 
 ## 🧪 Testing with Spock
 
----
+
 - **Tests are written using Spock, which provides:**
 - **given / when / then structure**
 - **Built-in mocking and interaction testing**
@@ -37,4 +37,3 @@ The goal of this project is to demonstrate:
 - **WebTestClient is used for non-blocking HTTP assertions**
 - **@MockitoBean is used to mock Spring-managed beans (Spring Boot 4 style)**
 - **⚠️ Important: When using @MockitoBean, Mockito stubbing (when(...).thenReturn(...)) must be used instead of Spock’s >> syntax.**
----
